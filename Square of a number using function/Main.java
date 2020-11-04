@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class Main
+{
+	public static void main (String[] args)
+    {
+	 // Type your code here   
+      Scanner in = new Scanner(System.in);
+	    int n = in.nextInt();
+	    System.out.print(square(n)); // Function call
+	}
+    // Function to find the sum of numbers
+	public static int square(int a)
+	{
+	    int result = a*a;
+        return result;
+	}
+} 
